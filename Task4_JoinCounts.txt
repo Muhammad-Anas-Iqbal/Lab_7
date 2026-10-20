@@ -1,0 +1,7 @@
+Enroll_Details (Left Outer): 10 rows. It Keeps all enrollment rows and adds matching course details.
+
+Enroll_Inner (Inner): 9 rows. It Keeps only enrollment rows with matching course codes.
+
+Enroll_FullOuter (Full Outer): 11 rows. Includes all enrollment and course records, including unmatched records.
+
+Enroll_LeftAnti (Left Anti): 1 row. Keeps enrollment rows whose course codes have no matching course.
